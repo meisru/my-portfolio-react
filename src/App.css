@@ -1156,11 +1156,12 @@ body {
   gap: 20px;
 }
 
-.footer-copyright p,
+.footeropyright p,
 .footer-credits p {
   color: var(--text-muted);
   margin: 0;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -1200,6 +1201,11 @@ body {
   .hero-text {
     padding-left: 0;
     padding-right: 0;
+    margin-top: 40px; 
+  }
+
+  .scroll-indicator {
+    display: none; /* Hide on tablet and smaller */
   }
 
   .hero-title {
@@ -1208,6 +1214,8 @@ body {
 
   .hero-subtitle {
     font-size: 1.2rem;
+    justify-content: center; 
+    text-align: center;
   }
 
   .about-content {
@@ -1262,6 +1270,19 @@ body {
 @media (max-width: 480px) {
   .container {
     padding: 0 16px;
+  }
+
+  .scroll-indicator {
+    display: none; /* Hide on small phones as well */
+  }
+
+  .hero-text {
+    margin-top: 30px; 
+  }
+
+  .hero-subtitle {
+    justify-content: center;
+    text-align: center;
   }
 
   .hero-title {
