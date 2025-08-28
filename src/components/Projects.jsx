@@ -42,18 +42,18 @@ const Projects = () => {
       liveUrl: null,
       githubUrl: 'https://github.com/meisru/book-recs',
       featured: false
+    },
+    {
+      id: 4,
+      title: 'Weather Dashboard',
+      category: 'web',
+      image: '🌤️',
+      description: 'A weather dashboard that displays current weather conditions and temperature chart using weather API.',
+      technologies: ['React', 'OpenWeather API', 'Chart.js'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/meisru/weather-dashboard',
+      featured: false
     }
-    // {
-    //   id: 4,
-    //   title: 'Weather Dashboard',
-    //   category: 'web',
-    //   image: '🌤️',
-    //   description: 'A beautiful weather dashboard that displays current weather conditions, forecasts, and interactive maps using weather APIs.',
-    //   technologies: ['React', 'OpenWeather API', 'Chart.js'],
-    //   liveUrl: null,
-    //   githubUrl: null,
-    //   featured: false
-    // }
   ]
 
   const filteredProjects = activeFilter === 'all' 
